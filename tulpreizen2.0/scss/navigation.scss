@@ -1,0 +1,35 @@
+@use 'colors';
+.nav{
+    width: 100vw;
+    background: colors.$green;
+    display: flex;
+    justify-content: space-between;
+    min-height: 7rem;
+    align-items: center;
+    color: colors.$font-color;
+    padding: 2rem;
+    text-transform: uppercase;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+.cta{
+    width: 11rem;
+    padding: 1rem;
+    font-size: 80%;
+    background: colors.$light-green;
+    border: none;
+    color: colors.$font-color;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+}
+
+.cta:hover{
+    cursor: pointer;
+    background: colors.$green-transparent;
+    transition: 0.2s;
+}

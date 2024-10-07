@@ -1,0 +1,51 @@
+@use 'colors';
+.kenmerken{
+    height: 80vh;
+    padding: 2rem;
+    border-bottom: colors.$border-lightgreen-small;
+}
+
+.kenmerken > header{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    background: colors.$green;
+    padding: 2rem;
+    color: colors.$font-color;
+    height: 20%;
+    flex-wrap: wrap;
+}
+
+.kenmerken > .header > h2{
+    color: colors.$font-color;
+    font-size: 380%;
+}
+
+.onzekenmerken{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem ;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    padding: 7rem;
+}
+
+.kenmerk{
+  color: colors.$font-color;
+  height: 70%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 5rem;
+}
+
+.kenmerk > p{
+    width: 30ch;
+    text-align: center;
+    list-style: none;
+}

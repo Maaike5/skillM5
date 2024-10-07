@@ -1,0 +1,22 @@
+@use 'colors';
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;  /*1rem is 10 px*/
+    
+}
+
+a, a:visited, a:link{
+    color: colors.$font-color;
+    text-decoration: none;
+}
+
+body{
+    font-size: 2rem;
+    font-family: "Merriweather", serif;
+    background: colors.$green;
+}
