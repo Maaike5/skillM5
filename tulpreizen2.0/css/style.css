@@ -136,9 +136,9 @@ body {
 }
 
 .kenmerken {
-  height: 80vh;
-  padding: 2rem;
-  border-bottom: 0.2rem solid #BEDC74;
+  padding: 4rem;
+  height: 80rem;
+  border-bottom: #BEDC74;
 }
 
 .kenmerken > header {

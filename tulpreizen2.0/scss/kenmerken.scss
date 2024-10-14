@@ -1,8 +1,7 @@
 @use 'colors';
+@use 'components';
 .kenmerken{
-    height: 80vh;
-    padding: 2rem;
-    border-bottom: colors.$border-lightgreen-small;
+  @extend %section
 }
 
 .kenmerken > header{
