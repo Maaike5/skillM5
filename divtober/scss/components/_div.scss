@@ -1,0 +1,28 @@
+@use '../abstract/colors';
+@use'../abstract/mixins';
+
+body{
+    background: #eee;
+}
+
+div{
+    align-items: center;
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    box-shadow: 
+    /*  M */
+    20px 40px green, 60px 40px greenyellow, 
+    0 80px darkgreen, 40px 80px green, 80px 80px greenyellow,
+    
+    /* S */
+    160px 0 green, 200px 0 greenyellow, 240px 0,
+    160px 40px green, 
+    160px 80px greenyellow, 200px 80px darkgreen, 240px 80px green,
+    240px 120px greenyellow, 
+    160px 160px green, 200px 160px darkgreen, 240px 160px greenyellow;
+position: relative;
+}
+    
+
+
